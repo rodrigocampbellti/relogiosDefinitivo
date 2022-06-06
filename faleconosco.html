@@ -19,3 +19,59 @@
                 <li><a href="restrito.html">Acesso Restrito</a></li>
             </ul>  
         </div>
+
+          </div>
+          <div class="contents">
+            <form name="faleconosco" onsubmit="msg();">
+              <fieldset class="grupo">
+                <legend><h4>Fale Conosco</h4></legend>
+    
+                <label>Informe teu nome:</label>
+                <input
+                  type="text"
+                  class="maior"
+                  name="nome"
+                  id="nome"
+                  required
+                  maxlength="50"
+                  placeholder="Digite teu nome completo"
+                  onblur="aumento();"
+                />
+                <br /><br />
+    
+                <label>Informe o assunto:</label>
+                <select class="menor" name="assunto" id="assunto">
+                  <option value="0">Selecione o Assunto</option>
+                  <option value="1">Críticas</option>
+                  <option value="2">Sugestões</option>
+                  <option value="3">Outros</option>
+                </select>
+                <br /><br />
+    
+                <label>Deixe teu recado:</label>
+                <br />
+                <textarea
+                  name="recado"
+                  class="maior"
+                  id="recado"
+                  rows="8"
+                  required
+                  maxlength="200"
+                  placeholder="Digite teu recado..."
+                ></textarea>
+                <br /><br />
+    
+                <input type="submit" name="enviar" id="enviar" value="ENVIAR" />
+                <input type="reset" name="limpar" id="limpar" value="LIMPAR" />
+              </fieldset>
+            </form>
+          </div>
+                  </div>
+        </div>
+      </body>
+    </html>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="js/funcao.js"
+    ></script>

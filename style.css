@@ -1,9 +1,9 @@
 .header{
 width: 100%;
-font-size: 200%;
+font-size: 250%;
 font-style: oblique;
 background-color: #FFEED8;
-padding-top: 3%;
+margin-bottom: 5%;
 text-decoration: none;
 color: #FF2762;
 }
@@ -85,7 +85,104 @@ margin-left: 35%;
         background-color: red;
         padding: 1.2%;
         font-weight: bold;
-        margin-top: 90%;
-        width: 100%
-    
+        margin-top: 5%;
+        width: 98%
       }
+
+      .historia{
+        margin: 1px auto;
+        width: 60%;
+        height: 700px;
+        text-align: justify;
+        background: white;
+        border: 2px solid rgb(179, 165, 165);
+        -moz-box-shadow:0 3px 10px 0 grey;
+        -webkit-box-shadow:0 3px 10px 0 black;
+
+      }
+
+      .historia h2{
+        margin-left: 45%;
+      }
+
+      .historia p{
+margin-left: 10%;
+margin-right: 10%;
+      }
+
+      .grupo {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+        width: 450px;
+        margin-top: 70px;
+        margin-left: 20px;
+        padding: 10px;
+        border: 2px solid rgb(179, 165, 165);
+        -moz-box-shadow:0 3px 10px 0 grey;
+        -webkit-box-shadow:0 3px 10px 0 black;
+      }
+      
+      .maior {
+        font-size: 14px;
+        width: 280px;
+        resize: none;
+      }
+      
+      .grupo input,
+      select,
+      textarea {
+        background-color: #dddddd;
+      }
+      
+      .grupo input:hover,
+      input:focus,
+      select:hover,
+      select:focus,
+      textarea:hover,
+      textarea:focus {
+        border-color: red;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+      }
+
+      .login {
+        margin-left: 40%;
+      }
+      
+      .restrito {
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 10%;
+        border: 2px solid rgb(179, 165, 165);
+        -moz-box-shadow:0 3px 10px 0 grey;
+        -webkit-box-shadow:0 3px 10px 0 black;
+      }
+    
+
+      .restrito h2{
+        margin-left: 25%;
+        padding-bottom: 10%;
+
+      }
+      
+      .checkbox {
+        color: white;
+      }
+
+      .contato table {
+        margin-left: 45%;
+        text-align: center;
+        border: 2px solid rgb(179, 165, 165);
+        -moz-box-shadow:0 3px 10px 0 grey;
+        -webkit-box-shadow:0 3px 10px 0 black;
+      }
+      
+      .contents li {
+        font-size: 90%;
+        text-align: justify;
+      }
+
+      .zap{
+        width: 6%
+    }
