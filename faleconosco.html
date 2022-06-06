@@ -6,8 +6,9 @@
     <title>Relógios de bolso</title>
 </head>
 <body>
+  <div class="back">
         <div class="header">
-            <h1>Relógios de bolso</h1>
+            <h1><a href="index.html">Relógios de bolso</a></h1>
             </div>
         <div class="menu">
             <ul class="lista">
@@ -22,7 +23,7 @@
 
           </div>
           <div class="contents">
-            <form name="faleconosco" onsubmit="msg();">
+            <form name="faleconosco" method="post" onsubmit="msg()">
               <fieldset class="grupo">
                 <legend><h4>Fale Conosco</h4></legend>
     
@@ -35,10 +36,17 @@
                   required
                   maxlength="50"
                   placeholder="Digite teu nome completo"
-                  onblur="aumento();"
-                />
+                  onblur="aumento();"/>
                 <br /><br />
-    
+
+                <label>Informe o teu telefone</label>
+                <input type="text" name="tel" maxlength="14" placeholder="(00)00000-0000" size="12" onkeypress="mascara_tel(this)">
+                <br> <br>
+                
+                <label>Informe o teu e-mail</label>
+                <input type="text" name="emails" maxlength="40" placeholder="Digite teu email" size="35">
+                <br> <br>
+
                 <label>Informe o assunto:</label>
                 <select class="menor" name="assunto" id="assunto">
                   <option value="0">Selecione o Assunto</option>
@@ -68,10 +76,7 @@
           </div>
                   </div>
         </div>
+      </div>
       </body>
     </html>
-    <script
-      type="text/javascript"
-      language="javascript"
-      src="js/funcao.js"
-    ></script>
+    <script type="text/javascript" language="javascript" src="js/funcao.js"></script>

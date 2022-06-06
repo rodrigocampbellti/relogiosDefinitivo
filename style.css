@@ -1,11 +1,20 @@
+body{
+background-color: pink ;
+
+}
+
 .header{
 width: 100%;
 font-size: 250%;
 font-style: oblique;
-background-color: #FFEED8;
 margin-bottom: 5%;
 text-decoration: none;
-color: #FF2762;
+
+}
+
+.header a{
+text-decoration: none;
+color: red ;
 }
 
 
@@ -43,10 +52,10 @@ padding-top: 1.3%;
     }
 
     .carrossel{
-margin-top: 10%;
+display: inline-block;
+border-radius: 1em;
 
     }
-
     .textofront{
 
         font-size: 90%;
@@ -117,6 +126,7 @@ margin-right: 10%;
         margin-top: 70px;
         margin-left: 20px;
         padding: 10px;
+        background-color: white;
         border: 2px solid rgb(179, 165, 165);
         -moz-box-shadow:0 3px 10px 0 grey;
         -webkit-box-shadow:0 3px 10px 0 black;
@@ -170,9 +180,15 @@ margin-right: 10%;
         color: white;
       }
 
+      .contato{
+
+        background-color: pink;
+      }
+
       .contato table {
         margin-left: 45%;
         text-align: center;
+        background-color: white;
         border: 2px solid rgb(179, 165, 165);
         -moz-box-shadow:0 3px 10px 0 grey;
         -webkit-box-shadow:0 3px 10px 0 black;
