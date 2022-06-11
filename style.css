@@ -4,27 +4,34 @@
 
 
 body{
-background-color: pink ;
+background-color: #370067;
 
 }
 
 .header{
-width: 100%;
+width: 60%;
 font-size: 350%;
 font-style: oblique;
 margin-bottom: 5%;
-text-decoration: none;
-font-family: 'Dancing Script', cursive;
+
 }
 
 .header a{
 text-decoration: none;
-color: red ;
+color: #ffffff	;
+font-family:'Dancing Script', cursive;
+
+
+}
+
+.header h1{
+margin-left: 3%;
+
 }
 
 
 .menu{
-    background-color: red;
+    background-color: #7000bf;
     margin-top: 3%;
     margin-bottom: 2%;
     height: 50%;
@@ -52,7 +59,7 @@ margin-top: 1%;
 
 
 .menu li a:hover{
-    background: red;
+    background: #8b2bae	;
     color:#fff;
     -moz-box-shadow:0 3px 10px 0 #CCC;
     -webkit-box-shadow:0 3px 10px 0 pink;
@@ -67,7 +74,7 @@ border-radius: 1em;
     }
     .textofront{
 
-        font-size: 90%;
+        font-size: 105%;
         text-align: justify;
         color: black;
         padding-top: 3%;
@@ -77,8 +84,8 @@ border-radius: 1em;
     }
 
 
-    h2{
-color: red;
+    h1{
+color: #370067	;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 margin-left: 35%;
 
@@ -100,7 +107,7 @@ margin-left: 35%;
         color: white;
         text-align: center;
         font-size: 14px;
-        background-color: red;
+        background-color: #7000bf;
         padding: 1.2%;
         font-weight: bold;
         margin-top: 5%;
@@ -119,23 +126,25 @@ margin-left: 35%;
 
       }
 
-      .historia h2{
+      .historia h1{
         margin-left: 45%;
+        color: #7000bf;
       }
 
       .historia p{
 margin-left: 10%;
 margin-right: 10%;
+font-size: 120%;
       }
 
       .grupo {
         font-family: 'Times New Roman', Times, serif;
-        font-size: 16px;
-        width: 450px;
+        font-size: 20px;
+        width: 40%;
         margin-top: 70px;
-        margin-left: 20px;
+        margin-left: 29%;
         padding: 10px;
-        background-color: white;
+        background-color: #931CBB;
         border: 2px solid rgb(179, 165, 165);
         -moz-box-shadow:0 3px 10px 0 grey;
         -webkit-box-shadow:0 3px 10px 0 black;
@@ -151,6 +160,28 @@ margin-right: 10%;
       select,
       textarea {
         background-color: #dddddd;
+        width: 80%;
+
+      }
+
+      .grupo textarea{
+        width: 60%;
+
+      }
+
+      .grupo h4{
+        color: white;
+        font-size: 130%;
+      }
+
+      .grupo label{
+        color: #CCC;
+        font-size: 120%;
+      }
+
+      .bottom  {
+        width: 40%;
+
       }
       
       .grupo input:hover,
@@ -159,7 +190,7 @@ margin-right: 10%;
       select:focus,
       textarea:hover,
       textarea:focus {
-        border-color: red;
+        border-color: rgb(123, 53, 194);
         background-color: white;
         color: black;
         font-weight: bold;
@@ -191,24 +222,56 @@ margin-right: 10%;
       }
 
       .contato{
-
-        background-color: pink;
+       background-color: #370067;
+      
       }
 
       .contato table {
-        margin-left: 45%;
-        text-align: center;
-        background-color: white;
+        background-color: #7000bf;
         border: 2px solid rgb(179, 165, 165);
         -moz-box-shadow:0 3px 10px 0 grey;
         -webkit-box-shadow:0 3px 10px 0 black;
       }
       
+      .contato p{
+        color: white;
+        background-color: #7000bf;
+        margin-left: 0%;
+        font-size: 150%;
+        text-align: center ;
+        border: 2px solid rgb(199, 39, 39);
+        -moz-box-shadow:0 3px 10px 0 grey;
+        -webkit-box-shadow:0 3px 10px 0 black;
+      }
+
+      .tableone{
+        color: white;
+        background-color:#7000bf;
+        width: 12.5%;
+
+      }
+
+
       .contents li {
         font-size: 90%;
         text-align: justify;
       }
 
       .zap{
-        width: 6%
+        width: 25%;
+        margin-left: 38%;
     }
+
+    .imagem{
+      background-color: #8624aa ;
+
+      display:inline-block;
+
+    }
+
+  .imagem figcaption{
+    margin-left: 35%;
+    width: 120%;
+    color: #ffffff;
+
+  }
